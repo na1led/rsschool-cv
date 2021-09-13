@@ -66,7 +66,7 @@ function getMiddle(s)
 }
 ```
 
-### Dev and Education experience
+### Develop and Education experience
 
 - Completed the course PROWEB in Tashkent
 - My own projects:
