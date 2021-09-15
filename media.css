@@ -227,10 +227,6 @@
     .section__list>li {
         font-size: 15px;
     }
-    .skills-block{
-        display: flex;
-        flex-direction: column;
 
-    }
     
 }
