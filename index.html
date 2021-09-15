@@ -6,53 +6,74 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML, CSS & Git Basics</title>
+    <link rel="stylesheet" href="fonts/fontawesome-pro-5.13.0-web/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header class="header">
+        <nav class="header__nav">
+            <div class="container">
+                <ul class="header__nav_list">
+                    <li><a href="" class="list-link">Contacts</a></li>
+                    <li><a href="" class="list-link">Personal Information</a></li>
+                    <li><a href="" class="list-link">My skills</a></li>
+                    <li><a href="" class="list-link">Experience</a></li>
+                </ul>
+            </div>
+        </nav>
         <div class="container">
-            <h1 class="section__title">Konstantin Kan</h1>
-            <h2 class="section__subtitle">Front-end developer</h2>
+            <div class="header__content">
+                <div class="header__content_left">
+                    <h1 class="section__title header__title">Konstantin Kan</h1>
+                    <h2 class="section__subtitle">Front-end developer</h2>
+                    <ul class="section__list">
+                        <li><a class="list-link" href="https://github.com/na1led"><i class="fab fa-github"></i>
+                                na1led</a></li>
+                        <li><a class="list-link" href="tel:+998911900184"><i class="far fa-phone-square"></i> +998 91
+                                190-01-84</a></li>
+                        <li><a class="list-link" href=""><i class="far fa-envelope"></i> kostikkan595@gmail.com</a></li>
+                    </ul>
+                </div>
+                <img class="avatar" src="img/avatar.jpg" alt="">
+            </div>
+
         </div>
     </header>
-    <section class="contacts">
-        <div class="container">
-            <h1 class="section__title">Contacts</h1>
-            <ul class="section__list">
-                <li><span>GitHub:</span> na1led</li>
-                <li><span>Phone number:</span> +998 91 190-01-84</li>
-                <li><span>Email:</span> kostikkan595@gmail.com</li>
-            </ul>
-        </div>
-
-    </section>
     <section class="personal">
         <div class="container">
-            <h1 class="section__title">Personal Information</h1>
+            <h2 class="section__title"><i class="fas fa-user-check"></i>Personal Information</h2>
             <ul class="section__list">
-                <li>I have already had 1 year of training in Front-end development behind my back and I'm not going to
-                    stop</li>
-                <li>My features: <br>
-                    +50% to the learning rate,<br>
-                    +30% to consolidate knowledge,<br>
-                    Gets +100% efficiency(cooldown 3 days)</li>
+                <li><i class="far fa-circle"></i>I'm 17 years old</li>
+                <li><i class="far fa-circle"></i>I have already had 1 year of training in Front-end development behind
+                    my back and I'm not going to
+                    stop
+                </li>
+                <li>
+                    <ul class="section__list">
+                        <li><i class="far fa-circle"></i>My features:</li>
+                        <li>+50% to the learning rate,</li>
+                        <li>+30% to consolidate knowledge,</li>
+                        <li>Gets +100% efficiency(cooldown 3 days)</li>
+                    </ul>
+                </li>
             </ul>
         </div>
     </section>
     <section class="skills">
         <div class="container">
-            <h1 class="section__title">My skills</h1>
-            <ul class="section__list">
-                <li>Java Script</li>
-                <li>HTML6,CSS4</li>
-                <li>Git</li>
+            <h2 class="section__title"><i class="far fa-head-side-brain"></i>My skills</h2>
+            <ul class="section__list skills__list">
+                <li><i class="fab fa-js-square"></i>Java Script</li>
+                <li><i class="fab fa-html5"></i></i>HTML5</li>
+                <li><i class="fab fa-css3-alt"></i>CSS3</li>
+                <li><i class="fab fa-git-square"></i>Git</li>
             </ul>
         </div>
     </section>
     <section class="experience">
         <div class="container">
-            <h1 class="section__title">Dev and Education experience</h1>
+            <h2 class="section__title">Dev and Education experience</h2>
             <ul class="section__list">
                 <li>
                     Completed the course <span>PROWEB</span> in Tashkent
@@ -67,12 +88,25 @@
 
                 </li>
                 <li>
-                    <span>English level:</span>  Intermediate
+                    <span>English level:</span> Intermediate
                 </li>
             </ul>
         </div>
 
     </section>
+    <footer class="footer">
+        <div class="container footer-container">
+            <ul class="section__list">
+                <li><a class="list-link" href="https://github.com/na1led"><i class="fab fa-github"></i>
+                        na1led</a></li>
+                <li><a class="list-link" href="tel:+998911900184"><i class="far fa-phone-square"></i> +998 91
+                        190-01-84</a></li>
+                <li><a class="list-link" href=""><i class="far fa-envelope"></i> kostikkan595@gmail.com</a></li>
+            </ul>
+            <a href="https://rs.school/js/" class="footer__link"><img src="fonts/rs_school_js.svg" alt=""></a>
+        </div>
+        
+    </footer>
 </body>
 
 </html>
