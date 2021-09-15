@@ -16,14 +16,17 @@ html {
 
 
 body {
-    background: linear-gradient(to bottom,#fff,rgb(163, 203, 255),rgb(191, 163, 255));
+    background: url('img/background.png');
+    background-size: cover;
+    background-position: center;
+    /* background: linear-gradient(to bottom,#fff,rgb(163, 203, 255),rgb(191, 163, 255)); */
 }
 
 .wrapper {
     background: rgba(255, 255, 255, 0.25);
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
     max-width: 900px;
     margin: 50px auto;
 
@@ -48,11 +51,22 @@ section {
     border-bottom: 1px rgb(47, 47, 47) solid;
 }
 
-.header__content {
+.header__content-container {
+
+}
+.header__content{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 100px;
+}
+.header__content_avatar-block{
+    margin: 0 auto;
+    display: none;
+}
+.header__content_avatar{
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
 }
 .header__nav_burger{
     display: none;
@@ -94,7 +108,7 @@ section {
 .header__nav_burger-list{
     display: none;
     height: 0px;
-    padding: 8px;
+    padding: 5px;
     transition: 0.2s;
     overflow: hidden;
 
@@ -104,8 +118,8 @@ section {
     height: 120px;
 }
 .avatar {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
 }
 
@@ -120,7 +134,12 @@ section {
     display: flex;
     justify-content: space-between;
 }
-
+.header__nav_avatar{
+    display: none;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
 .header__nav_list>li>.list-link {
     margin: 15px;
     padding-bottom: 0;
@@ -144,15 +163,14 @@ section {
 
 .section__title {
     color: rgb(47, 47, 47);
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 600;
     padding-bottom: 15px;
 }
-
-.header__title {
+.header__title{
+    font-size: 50px;
     border-bottom: 2px rgb(47, 47, 47) solid;
 }
-
 .section__subtitle {
     padding-top: 30px;
     color: rgb(47, 47, 47);
@@ -165,9 +183,11 @@ section {
 }
 
 .section__list>li {
-    font-size: 20px;
+    font-size: 22px;
 }
-
+.about-list > li > i {
+    width: 20px;
+}
 
 .skills-block {
     display: flex;
@@ -182,7 +202,9 @@ section {
     font-weight: 700;
     color: rgb(47, 47, 47);
 }
-
+.skills__list > li > i{
+    width: 25px;
+}
 
 .section__link {
     text-decoration: underline;
@@ -202,7 +224,7 @@ section {
 }
 
 .footer__link>img {
-    width: 140px;
+    width: 100px;
 }
 
 .section__link:hover {
