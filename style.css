@@ -1,0 +1,255 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+ul{
+    list-style: none;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+body {
+    background: url('img/background.png');
+    background-size: cover;
+    background-position: center;
+    /* background: linear-gradient(to bottom,#fff,rgb(163, 203, 255),rgb(191, 163, 255)); */
+}
+
+.wrapper {
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    max-width: 900px;
+    margin: 50px auto;
+
+    padding: 30px 60px;
+    border-radius: 30px;
+}
+.wrapper-container{
+    padding: 30px;
+}
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+section {
+    padding: 25px 0;
+    border-bottom: 1px rgb(47, 47, 47) solid;
+}
+
+.header {
+    padding-bottom: 50px;
+    border-bottom: 1px rgb(47, 47, 47) solid;
+}
+
+.header__content-container {
+
+}
+.header__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__content_avatar-block{
+    margin: 0 auto;
+    display: none;
+}
+.header__content_avatar{
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+}
+.header__nav_burger{
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+
+}
+.header__nav_burger-block{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+.burger-line{
+    opacity: 1;
+    width: 50px;
+    height: 2px;
+    background: #000;
+    transform-origin: top left;
+    transition: transform 0.3s, opacity 0.1s;
+}
+.burger-active{
+
+}
+.upper_line-active{
+    transform: rotate(45deg);
+
+}
+.lower_line-active{
+    transform: rotate(-45deg);
+}
+.middle_line-active{
+    opacity: 0;
+}
+.header__nav_burger-list{
+    display: none;
+    height: 0px;
+    padding: 5px;
+    transition: 0.2s;
+    overflow: hidden;
+
+}
+
+.burger_list-active{
+    height: 120px;
+}
+.avatar {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+
+.header__nav>.container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header__nav_list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.header__nav_avatar{
+    display: none;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.header__nav_list>li>.list-link {
+    margin: 15px;
+    padding-bottom: 0;
+    margin-bottom: 15px;
+}
+
+.list-link {
+    display: inline-block;
+    color: rgb(47, 47, 47);
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    border-bottom: 2px transparent solid;
+    transition: border-bottom 0.2s, color 0.2s;
+}
+
+.list-link:hover {
+    border-bottom: 2px #135075 solid;
+    color: #135075;
+}
+
+.section__title {
+    color: rgb(47, 47, 47);
+    font-size: 40px;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+.header__title{
+    font-size: 50px;
+    border-bottom: 2px rgb(47, 47, 47) solid;
+}
+.section__subtitle {
+    padding-top: 30px;
+    color: rgb(47, 47, 47);
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.section__list {
+    padding: 20px 0;
+}
+
+.section__list>li {
+    font-size: 22px;
+}
+.about-list > li > i {
+    width: 20px;
+}
+
+.skills-block {
+    display: flex;
+}
+
+.skills__list {
+    margin-right: 30px;
+}
+
+.skills__list>li {
+    font-size: 25px;
+    font-weight: 700;
+    color: rgb(47, 47, 47);
+}
+.skills__list > li > i{
+    width: 25px;
+}
+
+.section__link {
+    text-decoration: underline;
+    color: rgb(47, 47, 47);
+    font-weight: 700;
+    transition: 0.2s;
+}
+
+.footer {
+    padding: 25px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer__link>img {
+    width: 100px;
+}
+
+.section__link:hover {
+    color: rgb(101, 101, 255);
+}
+
+.section__list>li>i {
+    margin-right: 10px;
+
+}
+
+.fa-user-check {
+    margin-right: 15px;
+}
+
+.fa-head-side-brain {
+    margin-right: 15px;
+}
+
+.fa-user-clock {
+    margin-right: 15px;
+}
+
+.fa-circle {
+    font-size: 10px;
+    font-weight: 700;
+}
+
