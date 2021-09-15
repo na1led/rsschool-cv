@@ -1,0 +1,31 @@
+@media(max-width:800px){
+    .wrapper{
+        padding: 50px;
+    }
+    .section__title{
+        font-size: 45px;
+    }
+    .section__subtitle{
+        font-size: 30px;
+    }
+    .list-link{
+        font-size: 27px;
+    }
+    .header__content{
+        padding-top: 0;
+    }
+    .header__nav_list{
+        display: none;
+    }
+    .header__nav_burger{
+        display: flex;
+    }
+    .header__nav_burger-list{
+        display: flex;
+        flex-direction: column;
+
+    }
+}
+@media(max-width:600px){
+
+}
