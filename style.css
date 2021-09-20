@@ -16,14 +16,14 @@ html {
 
 
 body {
-    background: linear-gradient(to bottom,#fff,rgb(163, 203, 255),rgb(163, 203, 255));
+    /* background: linear-gradient(to bottom,#fff,rgb(163, 203, 255),rgb(163, 203, 255)); */
+    background: #e0e0e0;
 }
 
 .wrapper {
-    background: rgba(255, 255, 255, 0.25);
+    background: #e0e0e0;
     box-shadow: inset 5px 5px 10px #b5b5b5,
             inset -5px -5px 10px #ffffff;
-    backdrop-filter: blur(2px);
     max-width: 900px;
     margin: 50px auto;
 
@@ -162,14 +162,17 @@ section {
 }
 
 .section__title {
+    display: inline-block;
     color: rgb(47, 47, 47);
     font-size: 40px;
     font-weight: 600;
-    padding-bottom: 15px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    box-shadow:  5px 5px 10px #bebebe,
+    -5px -5px 10px #ffffff;
 }
 .header__title{
     font-size: 50px;
-    border-bottom: 2px rgb(47, 47, 47) solid;
 }
 .section__subtitle {
     padding-top: 30px;
