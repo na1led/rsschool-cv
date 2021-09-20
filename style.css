@@ -16,17 +16,14 @@ html {
 
 
 body {
-    background: url('img/background.png');
-    background-size: cover;
-    background-position: center;
-    /* background: linear-gradient(to bottom,#fff,rgb(163, 203, 255),rgb(191, 163, 255)); */
+    background: linear-gradient(to bottom,#fff,rgb(163, 203, 255),rgb(163, 203, 255));
 }
 
 .wrapper {
     background: rgba(255, 255, 255, 0.25);
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-    backdrop-filter: blur(6px);
-    -webkit-backdrop-filter: blur(6px);
+    box-shadow: inset 5px 5px 10px #b5b5b5,
+            inset -5px -5px 10px #ffffff;
+    backdrop-filter: blur(2px);
     max-width: 900px;
     margin: 50px auto;
 
@@ -120,7 +117,10 @@ section {
 .avatar {
     width: 270px;
     height: 270px;
+    padding: 5px;
     border-radius: 50%;
+    box-shadow:  9px 9px 18px #acacac,
+    -9px -9px 18px #ffffff;
 }
 
 
