@@ -48,9 +48,6 @@ section {
     border-bottom: 1px rgb(47, 47, 47) solid;
 }
 
-.header__content-container {
-
-}
 .header__content{
     display: flex;
     justify-content: space-between;
