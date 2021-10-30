@@ -16,17 +16,14 @@ html {
 
 
 body {
-    background: url('img/background.png');
-    background-size: cover;
-    background-position: center;
-    /* background: linear-gradient(to bottom,#fff,rgb(163, 203, 255),rgb(191, 163, 255)); */
+    /* background: linear-gradient(to bottom,#fff,rgb(163, 203, 255),rgb(163, 203, 255)); */
+    background: #e0e0e0;
 }
 
 .wrapper {
-    background: rgba(255, 255, 255, 0.25);
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-    backdrop-filter: blur(6px);
-    -webkit-backdrop-filter: blur(6px);
+    background: #e0e0e0;
+    box-shadow: inset 5px 5px 10px #b5b5b5,
+            inset -5px -5px 10px #ffffff;
     max-width: 900px;
     margin: 50px auto;
 
@@ -51,9 +48,6 @@ section {
     border-bottom: 1px rgb(47, 47, 47) solid;
 }
 
-.header__content-container {
-
-}
 .header__content{
     display: flex;
     justify-content: space-between;
@@ -120,7 +114,10 @@ section {
 .avatar {
     width: 270px;
     height: 270px;
+    padding: 5px;
     border-radius: 50%;
+    box-shadow:  9px 9px 18px #acacac,
+    -9px -9px 18px #ffffff;
 }
 
 
@@ -162,14 +159,17 @@ section {
 }
 
 .section__title {
+    display: inline-block;
     color: rgb(47, 47, 47);
     font-size: 40px;
     font-weight: 600;
-    padding-bottom: 15px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    box-shadow:  5px 5px 10px #bebebe,
+    -5px -5px 10px #ffffff;
 }
 .header__title{
     font-size: 50px;
-    border-bottom: 2px rgb(47, 47, 47) solid;
 }
 .section__subtitle {
     padding-top: 30px;
