@@ -27,4 +27,4 @@ for (let i = 0; i < burger.length; i++) {
 }
 
 
-
+console.log(document.body.offsetHeight);

@@ -22,11 +22,6 @@ body {
 
 .wrapper {
     background: #e0e0e0;
-
-    max-width: 900px;
-    margin: 50px auto;
-
-    padding: 30px 60px;
     border-radius: 8px;
     box-shadow: 0px 8px 10px 10px #0f2a3f
 }
@@ -34,25 +29,40 @@ body {
     padding: 30px;
 }
 .container {
-    max-width: 900px;
+    max-width: 1100px;
     margin: 0 auto;
+    padding: 0 25px;
 }
 
 section {
-    padding: 25px 0;
-    border-bottom: 1px rgb(47, 47, 47) solid;
+    padding: 50px 0;
+    box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.164);
+    transition: 0.3s;
 }
+
 
 .header {
     padding-bottom: 50px;
-    border-bottom: 1px rgb(47, 47, 47) solid;
+    background-image: url('img/7.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.3);
+}
+.header::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: 3;
 }
 
 .header__content{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 20px;
+    padding: 100px 0;
 }
 .header__content_avatar-block{
     margin: 0 auto;
@@ -116,8 +126,7 @@ section {
     height: 270px;
     padding: 5px;
     border-radius: 50%;
-    box-shadow:  9px 9px 18px #acacac,
-    -9px -9px 18px #ffffff;
+    box-shadow:  0px 9px 18px 10px #00000044;;
 }
 
 
@@ -167,10 +176,11 @@ section {
 
 }
 .header__title{
-    font-size: 50px;
+    font-size: 60px;
+
 }
 .section__subtitle {
-    padding-top: 30px;
+    padding-top: 10px;
     color: rgb(47, 47, 47);
     font-size: 35px;
     font-weight: 600;
@@ -265,7 +275,7 @@ section {
     font-size: 20px;
     color: rgb(80, 80, 80);
     transition: 0.3s;
-
+    margin-top: 6px;
 }
 .experience-grid-card:hover .experience-grid-text-descr{
     color: #000;
@@ -276,7 +286,7 @@ section {
 
 .footer-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
