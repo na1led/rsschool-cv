@@ -1,0 +1,334 @@
+@media(max-width:950px){
+    .avatar{
+        width: 240px;
+        height: 240px;
+    }
+}
+
+@media(max-width:820px){
+    .wrapper{
+        padding: 50px;
+    }
+    .section__title{
+        font-size: 36px;
+    }
+    .header__title{
+        font-size: 45px;
+    }
+    .section__subtitle{
+        font-size: 30px;
+    }
+    .list-link{
+        font-size: 27px;
+    }
+    .header__content{
+        padding-top: 0;
+    }
+    .header__nav_list{
+        display: none;
+    }
+    .header__nav_burger{
+        display: flex;
+    }
+    .header__nav_burger-list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .header__nav_burger-list > li > a{
+        font-size: 22px;
+    }
+    .header__nav > .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .list-link{
+        font-size: 23px;
+    }
+    .section__list>li {
+        font-size: 23px;
+    }
+    .experience-grid-text-title{
+        font-size: 28px;
+    }
+    .experience-grid-text-descr{
+        font-size: 20px;
+    }
+}
+@media(max-width:750px){
+    .avatar{
+        width: 210px;
+        height: 210px;
+    }
+    .experience-grid-text-title{
+        font-size: 25px;
+    }
+    .experience-grid-text-descr{
+        font-size: 18px;
+    }
+}
+@media(max-width:720px){
+    .section__title{
+        font-size: 31px;
+    }
+    .section__list>li {
+        font-size: 23px;
+    }
+    .header__title{
+        font-size: 43px;
+    }
+    .list-link{
+        font-size: 23px;
+        border-bottom: 1px black solid;
+    }
+    .avatar{
+        width: 180px;
+        height: 180px;
+    }
+    .experience-grid{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .experience-descr{
+        font-size: 25px;
+    }
+    .experience-grid-text-title{
+        font-size: 35px;
+    }
+    .experience-grid-text-descr{
+        font-size: 23px;
+    }
+}
+
+@media(max-width:670px){
+    .section__title{
+        font-size: 29px;
+    }
+    .header__title{
+        font-size: 35px;
+    }
+    .section__subtitle{
+        padding-top: 10px;
+        font-size: 25px;
+    }
+}
+@media(max-width:640px){
+    .wrapper{
+        padding: 40px;
+        padding-top: 60px;
+    }
+    .avatar{
+        display: none;
+    }
+    .section__list {
+        padding: 10px 0;
+    }
+    .section__title {
+        font-size: 34px;
+    }
+    .header__title {
+        font-size: 45px;
+    }
+    .header__content-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .header__content_avatar-block{
+        display: block;
+    }
+    .header__content_avatar{
+        display: block;
+        width: 190px;
+        height: 190px;
+    }
+    .header__content_left{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .header__content_left > .section__list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 5px;
+    }
+    .section__subtitle{
+        padding-top: 0px;
+    }
+}
+@media(max-width:540px){
+
+    .header{
+        padding-bottom: 25px;
+    }
+
+    .section__title{
+        font-size: 30px;
+    }
+    .header__title{
+        font-size: 42px;
+    }
+    .section__subtitle{
+        font-size: 28px;
+        padding-top: 0px;
+    }
+    .list-link{
+        font-size: 20px;
+    }
+
+    .header__content-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .experience-grid{
+        padding-top: 35px;
+    }
+    .experience-grid-text-title{
+        font-size: 32px;
+    }
+    .experience-grid-text-descr {
+        font-size: 20px;
+    }
+    .skills-block{
+        flex-direction: column;
+    }
+}
+@media(max-width:490px){
+    .wrapper-container{
+        padding: 20px;
+    }
+    .section__title{
+        font-size: 24px;
+        padding-bottom: 0;
+    }
+    .header__title{
+        font-size: 35px;
+    }
+    .section__subtitle{
+        font-size: 24px;
+    }
+    .header__nav_burger{
+        width: 35px;
+        height: 35px;
+    }
+    .burger-line{
+        width: 35px;
+    }
+
+    .experience-descr {
+        font-size: 23px;
+    }
+    .experience-grid-text-title {
+        font-size: 27px;
+    }
+    .experience-grid-text-descr {
+        font-size: 18px;
+    }
+    .footer{
+        padding: 0;
+    }
+    .footer-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-container > .section__list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer__link > img{
+        width: 70px;
+    }
+}
+@media(max-width:440px){
+    .wrapper-container {
+        padding: 12px;
+    }
+    .wrapper{
+        padding: 25px;
+    }
+}
+
+@media(max-width:406px){
+    .section__title {
+        font-size: 28px;
+    }
+    .header__title{
+        font-size: 33px;
+        padding-top: 7px;
+    }
+    .section__subtitle {
+        font-size: 20px;
+    }
+    .section__list>li {
+        font-size: 20px;
+    }
+    .section__list {
+        padding: 15px 0;
+    }
+    .list-link {
+        font-size: 18px;
+    }
+    .skills__list{
+        padding: 10px 0;
+    }
+    .about{
+        padding-bottom: 10px;
+    }
+    .experience-grid{
+        row-gap: 22px;
+    }
+    .experience-projects-title{
+        font-size: 27px;
+    }
+    .experience-descr {
+        font-size: 21px;
+        margin-top: 15px;
+    }
+    .experience-grid-text {
+        padding: 8px;
+    }
+    .experience-grid-text-title {
+        font-size: 25px;
+    }
+    .experience-grid-text-descr {
+        font-size: 16px;
+    }
+    .fa-user-check {
+        margin-right: 10px;
+    }
+    
+    .fa-head-side-brain {
+        margin-right: 10px;
+    }
+    
+    .fa-user-clock {
+        margin-right: 10px;
+    }
+
+    
+
+    
+}
+@media(max-width:390px){
+    .header__content_avatar{
+        width: 160px;
+        height: 160px;
+    }
+    .header__title {
+        font-size: 30px;
+
+    }
+    .section__title {
+        font-size: 23px;
+    }
+    .section__list>li {
+        font-size: 18px;
+    }
+    .experience-descr {
+        font-size: 18px;
+        margin-top: 12px;
+    }
+}
